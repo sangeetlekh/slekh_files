@@ -1,0 +1,28 @@
+.mejs__jump-forward-button > button,
+.mejs-jump-forward-button > button {
+    background: url('jumpforward.svg') no-repeat 0 0;
+    color: #fff;
+    font-size: 8px;
+    line-height: normal;
+    position: relative;
+}
+.mejs__skip-back-button > button,
+.mejs-skip-back-button > button {
+    background: url('skipback.svg') no-repeat 0 -1px;
+    color: #fff;
+    font-size: 8px;
+    line-height: normal;
+    position: relative;
+}
+.mejs__loop-button > button,
+.mejs-loop-button > button {
+    background: url('loop.svg') no-repeat transparent;
+}
+.mejs__loop-off > button,
+.mejs-loop-off > button {
+    background-position: -20px 1px;
+}
+.mejs__loop-on > button,
+.mejs-loop-on > button {
+    background-position: 0 1px;
+}
